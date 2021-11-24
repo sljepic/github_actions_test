@@ -43,6 +43,8 @@ jobs:
       - run: mkdir -p path/to/artifact
 
       - run: echo hello > path/to/artifact/world.txt
+      
+      - run: cat path/to/artifact/world.txt
 
       - uses: actions/upload-artifact@master
         with:
