@@ -59,4 +59,4 @@ jobs:
         name: my-artifact
         path: path/to/artifact/
 
-    - run: cat path/to/artifact/my-artifact.zip
+    - run: ls -la path/to/artifact/
