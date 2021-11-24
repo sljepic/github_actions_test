@@ -57,6 +57,6 @@ jobs:
     - uses: actions/download-artifact@master
       with:
         name: my-artifact
-        path: path/to/artifact/world.txt
+        path: path/to/artifact/
 
-    - run: cat path/to/artifact/world.txt
+    - run: cat path/to/artifact/my-artifact.zip
