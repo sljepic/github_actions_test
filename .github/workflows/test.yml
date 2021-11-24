@@ -60,3 +60,5 @@ jobs:
         path: path/to/artifact/
 
     - run: ls -la path/to/artifact/
+    
+    - run: cat path/to/artifact/world.txt
