@@ -74,4 +74,5 @@ jobs:
     needs: get_file
     steps: 
     - uses: jfrog/setup-jfrog-cli@v1
+    - run: https://eptestserver.jfrog.io/ui/repos/tree/General/local-artifacts
 
