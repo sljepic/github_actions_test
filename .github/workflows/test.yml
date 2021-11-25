@@ -74,5 +74,5 @@ jobs:
     needs: get_file
     steps: 
     - uses: jfrog/setup-jfrog-cli@v1
-    - run: jfrog rt u path/to/artifact/world.txt https://eptestserver.jfrog.io/artifactory/
+    - run: jfrog rt u --url https://eptestserver.jfrog.io/ path/to/artifact/world.txt https://eptestserver.jfrog.io/artifactory/
 
